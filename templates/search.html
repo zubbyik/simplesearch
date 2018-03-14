@@ -1,23 +1,21 @@
 {% extends 'layout.html' %}
 
 
+
 {% block body %}
 
 <div class="container-fluid">
 	<div class="row">
         <div class="col-sm-6 col-sm-offset-3">
             <div id="container">
-                <div class="input-group stylish-input-group">
-                    <input type="text" class="form-control"  placeholder="Search" >
-                    <span class="input-group-addon">
-                        <button type="submit">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </span>
-                </div>
+                <form action= "http://www.apolloscientific.co.uk/chemical_results.php?{{qstext}}&product_group=%25&search_fieldname=header_search method="get">
+                    <input type="text" name="qstext"/>
+                    <input type="submit" value="search" />
+                </form>
             </div>
         </div>
 	</div>
 </div>
+
 
 {% endblock %}
