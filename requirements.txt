@@ -41,7 +41,7 @@ linecache2==1.0.0
 lxml==4.2.0
 Mako==1.0.7
 MarkupSafe==0.23
-numpy==1.14.2
+numpy==1.22.0
 parsel==1.4.0
 parso==0.1.1
 passlib==1.6.2
