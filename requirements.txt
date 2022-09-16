@@ -39,7 +39,7 @@ jedi==0.11.1
 Jinja2==2.7.3
 linecache2==1.0.0
 lxml==4.2.0
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==0.23
 numpy==1.14.2
 parsel==1.4.0
